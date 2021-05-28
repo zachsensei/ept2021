@@ -10,10 +10,37 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  font-size: 30px;
+}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 20px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+</style>
 </head>
  <body>
  	<div class="container">
  		<div id="home" class="flex-column flex-center">
+			<div class="alert">
+        		<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        		<p>No copyright infringement intended. The owner of this  site doesn't own any question posted here, and its sole purpose is to give the user the idea of what will come up to the EPT 2021.</p>
+        		</div>
  			<h1>Computer-based EPT Reviewer</h1>
  			<br>
  			<a href="game.html" class="btn">Written Structure</a>
